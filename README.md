@@ -12,11 +12,6 @@ This research moves beyond simple effectiveness to uncover the “how” and “
 - **Boundaries**: Does it backfire under low autonomy or when the AI is disclosed?
 - **Alignment**: Does it only work if users believe the AI serves their goals, not just the company’s profit?
 
-### The Approach
-We combined three methods for robust results:
-- Natural Experiment: Using Difference-in-Differences (DiD) analysis on real platform data.
-- Controlled Studies: Testing psychological triggers in a lab setting.
-- Field Test: Deploying nudges via a travel agency to observe actual booking behavior.
 
 ### The Bottom Line
 The findings provide a roadmap for businesses and policymakers to design AI systems that are not only effective but also ethical and autonomy-respecting.
@@ -33,11 +28,6 @@ The findings provide a roadmap for businesses and policymakers to design AI syst
 - **邊界條件**：在低自主性或被揭露為 AI 時，是否會產生反效果？
 - **目標一致性**：是否只有在用戶認為 AI 符合自身利益（而非商家利潤）時才有效？
 
-### 研究方法
-採用三重驗證以確保結果嚴謹：
-- 自然實驗：運用雙重差分法（DiD）分析真實平台數據。
-- 控制實驗：在實驗室環境下檢驗心理機制。
-- 實地測試：與旅行社合作，觀察真實的預訂決策行為。
 
 ### 實質影響
 研究成果旨在為業界與政策制定者提供具體指引，協助設計既高效又合乎倫理、同時尊重用戶自主權的 AI 系統。
