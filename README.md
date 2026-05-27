@@ -12,7 +12,6 @@ This research moves beyond simple effectiveness to uncover the “how” and “
 - **Boundaries**: Does it backfire under low autonomy or when the AI is disclosed?
 - **Alignment**: Does it only work if users believe the AI serves their goals, not just the company’s profit?
 
-
 ### The Bottom Line
 The findings provide a roadmap for businesses and policymakers to design AI systems that are not only effective but also ethical and autonomy-respecting.
 
