@@ -38,3 +38,6 @@ The findings provide a roadmap for businesses and policymakers to design AI syst
 (ii) Short-form for non-academic publication — This research project is funded by the Public Policy Research Funding Scheme / Strategic Public Policy Research Funding Scheme of The Government of the HKSAR (project in progress).
 
 (iii) Any information, opinions, findings, conclusions or recommendations expressed in this material/event (or by members of the research team) do not represent the views of The Government of the Hong Kong Special Administrative Region and/or the Assessment Panel.
+
+---
+Contact: huliu@hkmu.edu.hk
