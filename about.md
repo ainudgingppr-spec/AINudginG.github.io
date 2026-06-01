@@ -1,17 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>關於 / About - AINudge-HKTourism</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
 
-# 關於本項目 / About This Project
-## AI Nudging for Sustainable Tourism: Mechanisms, Boundaries, and Ethical Implications
+        body {
+            display: flex;
+            min-height: 100vh;
+        }
 
----
+        .sidebar {
+            width: 200px;
+            background-color: #f8f9fa;
+            border-right: 1px solid #eee;
+            padding: 20px 10px;
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
+        }
 
-### 項目背景 / Project Background
-Artificial Intelligence (AI) is reshaping consumer behavior, offering new opportunities to address sustainability challenges in the tourism and hospitality industry. This research project investigates the potential of AI nudging to promote sustainable customer behavior, exploring its efficacy compared to traditional nudging methods. The study aims to bridge critical gaps in understanding how AI can be ethically and effectively deployed to support sustainability goals.
+        .sidebar h3 {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #333;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
 
----
+        .sidebar ul {
+            list-style: none;
+        }
 
-### 項目負責人 / Project Lead
-- **Name**: Huimin LIU
-- **Email**: huiliu@hkmu.edu.hk
-- **Affiliation**: Hong Kong Metropolitan University (HKMU)
+        .sidebar li {
+            margin: 10px 0;
+        }
 
-For inquiries about this research project, please contact the lead researcher via the email above.
+        .sidebar a {
+            text-decoration: none;
+            color: #0066cc;
+            font-size: 1em;
+            display: block;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        .sidebar a:hover {
+            background-color: #e9ecef;
+            text-decoration: underline;
+        }
+
+        .content {
+            margin-left: 200px;
+            padding: 30px;
+            max-width: 900px;
+        }
+
+        .content h1 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #222;
+        }
+
+        .content h2 {
+            font-size: 1.2em;
+            margin: 20px 0 10px;
+            color: #333;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        .content p, .content ul {
+            margin-bottom: 15px;
+            line-height: 1.6;
+            color: #444;
+        }
+
+        .content ul {
+            padding-left: 25px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h3>導航</h3>
+        <ul>
+            <li><a href="index.html">首頁 / Home</a></li>
+            <li><a href="about.html">關於 / About</a></li>
+            <li><a href="team.html">團隊 / Team</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h1>關於本項目 / About This Project</h1>
+        <h2>AI Nudging for Sustainable Tourism: Mechanisms, Boundaries, and Ethical Implications</h2>
+        <hr>
+
+        <h3>項目背景 / Project Background</h3>
+        <p>Artificial Intelligence (AI) is reshaping consumer behavior, offering new opportunities to address sustainability challenges in the tourism and hospitality industry. This research project investigates the potential of AI nudging to promote sustainable customer behavior, exploring its efficacy compared to traditional nudging methods. The study aims to bridge critical gaps in understanding how AI can be ethically and effectively deployed to support sustainability goals.</p>
+
+        <hr>
+
+        <h3>項目負責人 / Project Lead</h3>
+        <ul>
+            <li><strong>Name:</strong> Huimin LIU</li>
+            <li><strong>Email:</strong> <a href="mailto:huiliu@hkmu.edu.hk">huiliu@hkmu.edu.hk</a></li>
+            <li><strong>Affiliation:</strong> Hong Kong Metropolitan University (HKMU)</li>
+        </ul>
+        <p>For inquiries about this research project, please contact the lead researcher via the email above.</p>
+    </div>
+</body>
+</html>
