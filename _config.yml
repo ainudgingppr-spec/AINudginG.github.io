@@ -1,9 +1,10 @@
-remote_theme: academicpages/academicpages.github.io
-title: AINudge-HKTourism
-description: AI Nudging for Sustainable Tourism Research
-markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes"
+title: "AINudge-HKTourism"
+description: "AI Nudging for Sustainable Tourism Research"
+baseurl: "/AINudge-HKTourism"
+url: "https://ainudgingppr-spec.github.io"
 
-# 启用侧边栏（关键！）
+# 侧边栏导航
 sidebar:
   nav: "main"
 
@@ -19,7 +20,4 @@ main:
 # 其他必要配置
 author:
   name: "AINudge-HKTourism Project"
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
+markdown: kramdown
