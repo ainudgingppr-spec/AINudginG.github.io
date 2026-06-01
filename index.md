@@ -1,8 +1,7 @@
 ---
 layout: single
-title: AINudge-HKTourism
+title: 首頁 / Home
 permalink: /
-author_profile: false
 ---
 
 # AI Nudging for Sustainable Tourism: Mechanisms, Boundaries, and Ethical Implications
