@@ -1,23 +1,64 @@
-remote_theme: "mmistakes/minimal-mistakes"
-title: "AINudge-HKTourism"
-description: "AI Nudging for Sustainable Tourism Research"
-baseurl: "/AINudge-HKTourism"
-url: "https://ainudgingppr-spec.github.io"
+# ==========================================
+# 1. 主题配置（必选）
+# ==========================================
+remote_theme: "mmistakes/minimal-mistakes"  # 使用远程主题（无需下载到本地）
 
-# 侧边栏导航
+# ==========================================
+# 2. 站点基础信息（必选）
+# ==========================================
+title: "AI-Nudge-HKTourism"                  # 站点标题（显示在浏览器标签/页头）
+description: "AI Nudging for Sustainable Tourism Research"  # 站点描述（SEO用）
+
+# GitHub Pages 部署路径（关键！）
+baseurl: "/AI-Nudge-HKTourism"               # 项目站点：/项目名（你的仓库名）
+url: "https://ainudgingppr-spec.github.io"   # 你的 GitHub Pages 域名
+
+# ==========================================
+# 3. 导航配置（必选，minimal-mistakes 支持）
+# ==========================================
+# 侧边栏导航（绑定到 main 菜单）
 sidebar:
   nav: "main"
 
-# 定义导航菜单
+# 主导航菜单（对应页面路径）
 main:
-  - title: "首頁 / Home"
-    url: /
+  - title: "首頁 / Home"                     # 导航文字（中英混合）
+    url: /                                   # 首页路径（对应 index.md）
   - title: "關於 / About"
-    url: /about/
+    url: /about/                             # 关于页路径（对应 about.md）
   - title: "團隊 / Team"
-    url: /team/
+    url: /team/                              # 团队页路径（对应 team.md）
 
-# 其他必要配置
+# ==========================================
+# 4. 作者信息（可选，主题可调用）
+# ==========================================
 author:
-  name: "AINudge-HKTourism Project"
-markdown: kramdown
+  name: "AI-Nudge-HKTourism Project"         # 作者/团队名称
+
+# ==========================================
+# 5. Markdown 解析器（必选）
+# ==========================================
+markdown: kramdown                            # Jekyll 默认解析器（支持代码块、数学公式等）
+
+# ==========================================
+# 6. 可选优化配置（按需添加）
+# ==========================================
+# 时区（影响文章发布时间）
+timezone: Asia/Hong_Kong
+
+# 排除不需要的文件（如 .gitignore 里的文件）
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# 包含额外文件（如 .txt 或 .csv）
+include:
+  - _pages
+
+# 插件（Jekyll 3.9+ 无需显式声明，但若用 GitHub Pages 可留空）
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
